@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition:0.3s ease-in;
+
+}
+
+.web {
+    padding: 0 !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(22, 20, 53);
+    color: white;
+    display: flow-root;
+}
+.header2 a{
+    color: white;
+}
+
+.icon {
+    margin: auto;
+    padding-left: 2px;
+}
+
+.info {
+    border-right: 1.5px solid black;
+    padding: 15px 20px;
+}
+
+.info p {
+    margin: 0 !important;
+}
+
+.info span {
+    color: rgb(13, 160, 228);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo span {
+    color: aqua;
+}
+
+.navbar-toggler {
+    background-color: #16c6e3;
+    border: none;
+    padding: 10px 6px !important;
+    outline: none !important;
+    display: none;
+    border-radius: 4px;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 26px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+
+.navbar-toggler span+span {
+    margin-top: 5px;
+    margin-left: 8px;
+    width: 18px;
+}
+
+.navbar-toggler span+span+span {
+    width: 10px;
+    margin-left: 16px;
+}
+
+.search {
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 7px;
+}
+
+.search i {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hamburger {
+    padding-right: 65px;
+    padding-top: 6px;
+}
+
+/* ==============================Section2========================= */
+.section2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/tim-swaan-eOpewngf68w-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flow-root;
+    padding-top: 180px !important;
+    padding-bottom: 200px !important;
+    /* background:rgba(40,57,101,.9); */
+}
+
+.nav2 {
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.hidding h1 {
+    font-size: 3.5rem;
+}
+
+.hidding h1 span {
+    color: #10c5e0;
+    font-family: 'Shalimar', cursive;
+    font-weight: bold;
+    font-size: 4.9rem;
+}
+
+.buttons input:nth-child(odd) {
+    background-color: rgb(4, 212, 178);
+    color: white;
+    margin: 10px;
+    padding: 8px;
+}
+
+.buttons input:nth-child(even) {
+    border: 2px solid white;
+
+}
+
+.buttons input:nth-child(even):hover {
+    background-color: rgb(4, 212, 178) !important;
+    border: 0
+}
+
+/* ==========================SECTION-3============================= */
+.section3 {
+    background-color: rgb(5 12 38 / 95%);
+    color: grey;
+}
+
+.sec3 {
+    border-right: 1px solid black;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 !important;
+
+}
+
+.sec3 h5 {
+    margin: 0 !important;
+}
+
+.sec3 h3 {
+    color: #fff;
+    margin: 0 !important;
+}
+
+.sec4 {
+    font-size: 23px;
+    padding-top: 22px;
+    padding-left: 27px;
+    display: inline-block;
+}
+
+.input {
+    background-color: white;
+    font-size: 18px;
+    display: inline-block;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.input input[type=search] {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+.input input::placeholder{
+    padding-left: 15px;
+}
+
+.input i {
+    color: black;
+    padding: 4px;
+    float: right;
+}
+
+.search2 {
+    border: none;
+
+}
+
+.input input[type=date] {
+    width: 230px;
+    font-size: 16px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: none;
+
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+.btn2 {
+    display: inline-block;
+    text-align: center;
+}
+
+.btn2 form {
+    padding-left: 18px;
+}
+
+.btn2 form input {
+    background-color: rgb(4, 212, 178);
+    color: white;
+    padding: 5px 36px;
+    font-family: cursive;
+}
+
+.SEC {
+    justify-content: center;
+    align-items: center;
+}
+
+/*========================================slider========================================*/
+
+.carousel-item {
+    display: inline-block;
+    width: auto;
+    display: flex !important;
+}
+
+.carousel-control-prev {
+    opacity: inherit;
+    background-color: transparent;
+    border: 0;
+    width: 60px;
+}
+
+.carousel-control-prev-icon {
+    background-color: #1a195c;
+    border-radius: 23px;
+    width: 41px;
+    height: 86px;
+}
+
+.carousel-control-next-icon {
+    background-color: #1a195c;
+    border-radius: 23px;
+    width: 41px;
+    height: 86px;
+}
+
+.carousel-control-next {
+    opacity: inherit;
+    background-color: transparent;
+    border: 0;
+    width: 60px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.carousel-inner::-webkit-scrollbar {
+    overflow: hidden;
+}
+
+
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.card {
+    transition: transform 0.3s ease-in;
+    border-radius: 18px;
+}
+
+.card img {
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.slider-h1 h1 {
+    text-transform: uppercase;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+.nav-item a:hover {
+    color: #201652;
+}
+
+.nav-item a {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.section4 {
+    width: 100%;
+    background: linear-gradient(rgb(2 32 46 / 70%), rgb(2 32 46 / 70%)), url("./img/burger.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.images img {
+    width: 172px;
+}
+
+.images {
+    padding: 30px 20px 0 47px;
+    display: flex;
+}
+
+.holiday a {
+    text-decoration: none !important;
+    list-style: none !important;
+    font-family: cursive;
+}
+
+.holiday a p:hover {
+    color: #38CAF7 !important;
+}
+
+.holiday a img:hover {
+    border: 4px solid #38CAF7 !important;
+}
+
+.holiday {
+    text-decoration: none;
+    list-style: none;
+}
+
+.holiday p {
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+}
+
+.holi-hid {
+    text-align: center;
+    color: white;
+    padding-top: 79px;
+    font-family: cursive;
+}
+/* ================================section 6============================================== */
+.card p{
+    padding: 15px 20px 3px 20px;
+    margin: 0 !important;
+}
+.client-hid{
+    padding: 20px;
+}
+.client-hid span{
+    color: #16c6e3;
+}
+#client:hover{
+    border: 1px solid rgba(0,0,0,.125);
+    border-top:3px solid aqua ;
+}
+/* ==============================Section 7================== */
+.section7{
+    background-color: rgb(11 56 76);
+    color: white;
+    padding: 59px;
+}
+.Tags h2,.latestNews h2,.newsletter h2,.Address h2{
+    color: aqua;
+    margin: 20px 10px;
+}
+.newsletter-search{
+    margin: 22px 8px;
+}
+.newsletter p , .Address p{
+    display:inline-block;
+    margin: 0 10px;
+}
+.latestNews-1 p,.latestNews-2 p{
+    display: inline;
+    margin: 0 10px;
+}
+.newsletter-search input:nth-child(odd){
+    height: 30px;
+}
+.newsletter-search input:nth-child(odd)::placeholder{
+    padding: 8px 5px;
+}
+.newsletter-search input:nth-child(even){
+    font-weight: bold;
+    background-color: aqua;
+    border: 0;
+    padding: 3px;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
+.anchor a{
+    text-decoration: none;
+    border: 2px solid white;
+    list-style: none;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 2px;
+}
+.anchor a:hover{
+    background-color:aqua !important;
+    color: black;
+}
+.latestNews-1 , .latestNews-2{
+    margin: 20px 10px;
+}
+.Address-1{
+ margin: 20px 10px;
+}
+/* ==============================Footer================== */
+footer{
+    background-color: rgb(11 56 76);
+    border-top: 1px solid rgb(155, 152, 152);
+}
+.footer-ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.foot-link{
+    padding: 38px;
+    text-decoration: none !important;
+    font-family:cursive ;
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+}
+.foot-link:hover{
+    color: aqua;
+}
+.foot-sec p{
+    text-align: center;
+    color: white;
+    font-family:cursive;
+}

@@ -1,0 +1,255 @@
+@media screen and (max-width:1200px) {
+
+   .btn2 form {
+      padding-left: 10px;
+   }
+
+   .sec4 {
+      padding-left: 20px;
+      font-size: 16px;
+   }
+
+   .btn2 form input {
+      font-size: 13px;
+   }
+
+   nav {
+      display: contents !important;
+   }
+
+   .holiday {
+      margin: 45px 19px 0px 15px !important;
+   }
+
+   .images {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+}
+
+@media screen and (max-width:1130px) {
+   .info {
+      border: 0;
+   }
+
+   .info a,
+   .info p {
+      font-size: 9px;
+      padding: 8px 5px;
+   }
+
+   .icon i {
+      font-size: 12px;
+
+   }
+
+   .navDiv {
+      display: block !important;
+   }
+
+}
+
+@media screen and (max-width:1000px) {
+   .input input[type=date] {
+      width: 100px;
+   }
+
+   .input input[type=search] {
+      width: 100px;
+   }
+}
+
+@media screen and (max-width:992px) {
+   .navbar-toggler {
+      display: inline-block !important;
+
+   }
+
+   .info i {
+      font-size: 14px !important;
+   }
+
+   .search {
+      margin: 4px 0;
+   }
+
+   .logo h1 {
+      font-size: 30px;
+   }
+
+   .info {
+      padding: 0;
+      border: 0;
+   }
+
+   .sec3 {
+      padding: 4px 13px;
+      border: none;
+   }
+
+   .SEC {
+      padding: 0;
+   }
+
+   .navDiv {
+      display: flex !important;
+   }
+
+   .Tags h2,
+   .latestNews h2,
+   .newsletter h2,
+   .Address h2 {
+      margin: 20px 10px;
+      font-size: 20px;
+   }
+
+   .newsletter p,
+   .Address p,
+   .latestNews-1 p,
+   .latestNews-2 p,
+   .anchor a {
+      font-size: 10px;
+   }
+
+   .newsletter-search {
+      margin: 12px 6px;
+      font-size: 10px;
+   }
+
+   .images img {
+      width: 120px;
+   }
+
+   .holiday-img a img{
+      width: 120px !important;
+   }
+   .foot-link{
+      padding: 10px !important;
+   }
+}
+
+@media screen and (max-width:770px) {
+   .SEC {
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .input,
+   .btn2 {
+      display: block;
+      width: 100%;
+   }
+
+   .sec4 {
+      display: block;
+      width: 80%;
+   }
+
+   .input input {
+      width: 100% !important;
+   }
+
+   .input i {
+      display: none;
+   }
+
+   .sec4 p {
+      display: block !important;
+      margin: 0 !important;
+   }
+
+   .btn2 {
+
+      margin-top: 6px;
+      margin-bottom: 10px;
+
+
+   }
+
+   .btn2 form {
+      padding: 0 !important;
+   }
+
+   .sec3 h5,
+   h3 {
+      font-size: 1.75rem;
+      color: #fff;
+      display: inline;
+   }
+
+   .sec3 {
+      text-transform: uppercase;
+      font-family: sans-serif;
+      text-align: center;
+   }
+}
+
+@media screen and (max-width:580px) {
+   .none {
+      display: none !important;
+   }
+
+   .navbar-toggler {
+      padding: 7px 4px !important;
+   }
+
+   .search i {
+      font-size: 9px;
+   }
+
+   .SEC {
+      display: inline;
+      padding: 10px !important;
+   }
+
+   .sec4 {
+      font-size: 12px;
+      padding: 0 !important;
+   }
+
+   .input {
+      font-size: 16px;
+   }
+
+   .input input[type=date] {
+      width: 100%;
+
+   }
+
+   .input input[type=search] {
+      width: 100%;
+   }
+
+   .btn2 form input {
+      padding: 5px 20px;
+   }
+   .section7{
+      padding:5px;
+   }
+   .section7-container {
+      flex-wrap: wrap !important;
+   }
+   .card{
+      width: 23rem !important;
+      margin: 32px 4px !important;
+   }
+   .foot-link{
+      padding: 8px !important;
+      font-size: 12px;
+   }
+   .foot-sec p{
+      font-size: 10px;
+   }
+   .images img{
+      width: 113px;
+   }
+   .holiday-img a img{
+      width: 113px !important;
+   }
+}
+@media screen and (max-width:430px){
+   .card{
+      width: 15rem !important;
+   }
+   
+}
